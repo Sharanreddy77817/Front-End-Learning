@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  height: 1400px;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: whitesmoke;
+  z-index: 1000; /* Ensure header is on top */
+}
+
+.navitemsul {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.navitemsli {
+  color: black;
+  list-style: none;
+}
+
+.navitemsli a {
+  color: black;
+}
+.logo img {
+  height: 80px;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.introimage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  /* Position below the fixed header */
+  overflow: hidden; /* Ensure the text doesn't overflow */
+}
+
+.introimage img {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire div */
+  filter: blur(2px); /* Apply blur to the image */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+.introimage .block {
+  position: absolute;
+  color: rgb(249, 244, 244);
+  font-size: 36px;
+  display: flex;
+  font-size: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: start;
+  z-index: 1;
+  left: 20px; /* Position the text from the left edge */
+  top: 200px; /* Position the text from the top edge */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hover effect: Remove blur from the image and apply blur to the text */
+.introimage:hover img {
+  filter: none;
+}
+
+.introimage:hover .block {
+  filter: blur(2px);
+}
+
+.line {
+  border: 2px solid red;
+}
+
+.about {
+  margin: 95px 55px;
+  height: 300px;
+  top: 500px;
+  font-family: "Montserrat", sans-serif;
+  color: black; /* Ensure the text color is black */
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  height: 250px;
+  width: 300px;
+  background-color: orangered;
+}
+
+.why {
+  height: 20px;
+  background-color: white;
+}
+.whyex {
+  height: 230px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.box2 {
+  margin-top: 80px;
+  font-weight: bold;
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  background-color: orangered;
+}
+.staff {
+  height: 20px;
+  background-color: white;
+}
+.staffex {
+  height: 230px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
+}
+.box3 {
+  margin-top: 80px;
+  font-weight: bold;
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  background-color: orangered;
+}
+.Tech {
+  height: 20px;
+  background-color: white;
+}
+.Techex {
+  height: 230px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.achivements {
+  align-items: center;
+  padding-top: 50px;
+  top: 800px;
+  margin-top: 20px;
+  height: 400px;
+  font: white;
+  background-color: black;
+}
+
+.stu {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  align-items: center;
+  color: orangered;
+}
+
+.lines {
+  margin-left: 50px;
+  margin-top: 50px;
+  align-items: center;
+  color: white;
+}
+
+.lines p {
+  margin-top: 0px; /* Remove any conflicting margin-top */
+  padding-top: 10px; /* Add padding to create space above the text */
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+
+.connectus {
+  top: 1200px;
+  gap: 10px;
+  color: white;
+  background-color: gray;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.cont {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.problem {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 250px;
+}
+
+.whatsapp {
+  margin-left: 30px;
+  height: 70px;
+  width: 200px;
+}
+
+.whatsapp img {
+  height: 100px;
+  width: 200px;
+}
+
+.Instagram {
+  height: 100px;
+  width: 200px;
+}
+
+.Instagram img {
+  height: 70px;
+}
+
+.Facebook {
+  height: 100px;
+  width: 200px;
+}
+
+.Facebook img {
+  height: 70px;
+}
