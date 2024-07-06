@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  margin-top: 0px;
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 20px;
+  color: red;
+}
+
+.navul {
+  font-family: "Montserrat", sans-serif;
+  color: red;
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navli {
+  margin-right: 40px;
+}
+
+.navli a {
+  color: red;
+  text-decoration: none;
+}
+
+.herosection {
+  display: flex;
+  gap: 100px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.box {
+  margin-top: 30px;
+  font-size: 30px;
+  height: 300px;
+  width: 750px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+
+.newcar {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.line1 {
+  margin-left: 30px;
+  border-bottom: 3px solid white;
+}
+
+.newcar1 {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: gray;
+  height: 60px;
+  margin-left: 220px;
+  width: 120px;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.sidebox {
+  background-color: black;
+  align-items: center;
+  height: 350px;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.sidebox img {
+  margin-left: 26px;
+  margin-top: 35px;
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+}
+
+.cimage img {
+  margin-left: 26px;
+  margin-top: 35px;
+  height: 200px;
+  width: 500px;
+  max-width: 100%;
+}
+
+.features {
+  background-color: black;
+  height: 400px;
+}
+
+.headline {
+  padding: 10px;
+  margin-left: 45%;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  color: red;
+  margin-top: 20px;
+}
+.linex {
+  border-bottom: 2px solid white;
+  width: 20%;
+  margin-left: 39%;
+}
+.feature {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 90%;
+  margin-top: 60px;
+  margin-left: 200px;
+  color: red;
+  background-color: black;
+}
+
+.feature p {
+  font: red;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.sidebox img,
+.cimage img {
+  margin-left: 26px;
+  margin-top: 35px;
+  height: 300px; /* Set the desired height for both images */
+  width: auto;
+  max-width: 100%;
+}
